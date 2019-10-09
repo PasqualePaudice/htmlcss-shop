@@ -1,13 +1,13 @@
 
 
 body {
-    background-color:red;
+    background-color:white;
 }
 
 main {
     background-color: white;
     width: 50%;
-    height: 500px;
+    height:800px;
     margin: auto;
     padding:5px;
 }
@@ -15,7 +15,6 @@ main {
 
 div div{
     /*immagine*/
-
     background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,6 +44,13 @@ div div{
 
 }
 
-#container{
-    padding: 5px;
+#img4 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjMctSnvXudehWHU900RLR41TzjTxRttOsWbNzmYUpSugASNXE");
+
+}#img5 {
+    background-image: url("https://mosaic02.ztat.net/vgs/media/catalog-lg/LE/22/2O/00/RQ/11/LE222O00R-Q11@20.jpg");
+
+}#img6 {
+    background-image: url("https://i.pinimg.com/originals/57/61/39/576139228b68d086483b53b4ec99034b.jpg");
+
 }
