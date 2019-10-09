@@ -10,8 +10,9 @@ main {
     height:800px;
     margin: auto;
     padding:5px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
 }
-
 
 div div{
     /*immagine*/
@@ -20,17 +21,20 @@ div div{
     background-repeat: no-repeat;
     background-position: center;
 
-    border: 1px solid grey;
+    border: 1px solid #f2f2f2;
     width: 30%;
     height: 300px;
     margin: 5px;
     margin-left: 10px;
     display: inline-block;
 
+    position: relative;
 }
 
+
+
 #img1 {
-    background-image: url("https://mosaic03.ztat.net/vgs/media/catalog-lg/NI/12/2E/05/HQ/11/NI122E05H-Q11@4.jpg");
+ background-image: url("https://i.pinimg.com/originals/a0/e2/5b/a0e25b8a4f168be81d44a6ddf15e7eaf.jpg");
 
 }
 
@@ -46,11 +50,21 @@ div div{
 
 #img4 {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjMctSnvXudehWHU900RLR41TzjTxRttOsWbNzmYUpSugASNXE");
+}
 
-}#img5 {
+#img5 {
     background-image: url("https://mosaic02.ztat.net/vgs/media/catalog-lg/LE/22/2O/00/RQ/11/LE222O00R-Q11@20.jpg");
 
 }#img6 {
     background-image: url("https://i.pinimg.com/originals/57/61/39/576139228b68d086483b53b4ec99034b.jpg");
 
+}
+
+span{
+    position:absolute;
+    right: 0;
+    background-color: red;
+    border: 1px inset black;
+    border-radius: 50%;
+    padding: 2px;
 }
