@@ -4,6 +4,12 @@ body {
     background-color:white;
 }
 
+header{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    position: relative;
+}
+
 main {
     background-color: white;
     width: 50%;
@@ -67,4 +73,20 @@ span{
     border: 1px inset black;
     border-radius: 50%;
     padding: 2px;
+}
+
+.ddestra{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+
+}
+
+.destra{
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    z-index: 2;
+
+
 }
