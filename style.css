@@ -20,7 +20,7 @@ main {
     border-left: 1px solid grey;
 }
 
-div div{
+.hove{
     /*immagine*/
     background-color: white;
     background-size: cover;
@@ -36,8 +36,6 @@ div div{
 
     position: relative;
 }
-
-
 
 #img1 {
  background-image: url("https://i.pinimg.com/originals/a0/e2/5b/a0e25b8a4f168be81d44a6ddf15e7eaf.jpg");
@@ -60,13 +58,14 @@ div div{
 
 #img5 {
     background-image: url("https://mosaic02.ztat.net/vgs/media/catalog-lg/LE/22/2O/00/RQ/11/LE222O00R-Q11@20.jpg");
+}
 
-}#img6 {
+#img6 {
     background-image: url("https://i.pinimg.com/originals/57/61/39/576139228b68d086483b53b4ec99034b.jpg");
 
 }
 
-span{
+.s {
     position:absolute;
     right: 0;
     background-color: red;
@@ -75,18 +74,32 @@ span{
     padding: 2px;
 }
 
-.ddestra{
+.ddestra {
     position: absolute;
     right: 20px;
     top: 25px;
 
 }
 
-.destra{
+.destra {
     position: absolute;
     top: 25px;
     right: 0px;
     z-index: 2;
 
+}
 
+.cuore{
+    color:red;
+    position: absolute;
+    display: none;
+    font-size: 100px;
+    bottom:2px;
+    left:60px;
+
+}
+
+.hove:hover .cuore{
+    display: block;
+    cursor: pointer;
 }
