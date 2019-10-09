@@ -5,9 +5,14 @@ body {
 }
 
 header{
+    background-color: white;
     font-family: 'Pacifico', cursive;
     text-align: center;
-    position: relative;
+    position: fixed;
+    z-index: 2;
+    top:0;
+    left:0;
+    right:0;
 }
 
 main {
@@ -15,6 +20,7 @@ main {
     width: 50%;
     height:800px;
     margin: auto;
+    margin-top: 110px;
     padding:5px;
     border-right: 1px solid grey;
     border-left: 1px solid grey;
@@ -94,8 +100,9 @@ main {
     position: absolute;
     display: none;
     font-size: 100px;
-    bottom:2px;
-    left:60px;
+    bottom:40%;
+    left:40%;
+    margin: auto;
 
 }
 
